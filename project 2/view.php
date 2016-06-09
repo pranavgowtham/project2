@@ -3,15 +3,15 @@
 <body>
 <?php
 // define variables and set to empty values
-$Name = $Rollnumber = $Department = $Emailaddress = $Physicaladdress = $Aboutme = "";
+$Name = $Rollnumber = $Department = $Email address = $Physical address = $About me = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $Name = test_input($_POST["Name"]);
   $Rollnumber = test_input($_POST["Rollnumber"]);
   $Department = test_input($_POST["Department"]);
-  $Emailaddress = test_input($_POST["Emailaddress"]);
-  $Physicaladdress = test_input($_POST["Physicaladdress"]);
-  $Aboutme = test_input($_POST["Aboutme"]);
+  $Email address = test_input($_POST["Email address"]);
+  $Physical address = test_input($_POST["Physical address"]);
+  $About me = test_input($_POST["About me"]);
  
 }
 
@@ -29,13 +29,13 @@ echo $Name;
 echo "<br>";
 echo $Rollnumber;
 echo "<br>";
-echo $Emailaddress;
+echo $Email address;
 echo "<br>";
 echo $Department;
 echo "<br>";
-echo $Physicaladdress;
+echo $Physical address;
 echo "<br>";
-echo $Aboutme;
+echo $About me;
 ?>
 </body>
 </html>
