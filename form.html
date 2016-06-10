@@ -1,30 +1,43 @@
 <!DOCTYPE html>
 <html>
-<body>
+<body bgcolor="green">
 
 <form action="validation.php" method="post;">
   Name:<br>
   <input type="text" name="Name">
   <br>
   Rollnumber:<br>
-  <input type="number" name="Rno">
+  <input type="number" name="Rollnumber">
   <br>
   Department:<br>
-  <input type="text" name="dpt">
+  <select>
+  <option value="CSE">CSE</option>
+  <option value="ECE">ECE</option>
+  <option value="EEE">EEE</option>
+  <option value="MECH">MECH</option>
+  <option value="CIVIL">CIVIL</option>
+  <option value="CHEMICAL">CHEMICAL</option>
+  <option value="ICE">ICE</option>
+  <option value="PROD">PROD</option>
+  <option value="META">META</option>
+  <option value="ARCHI">ARCHI</option>
+  <option value="MCA">MCA</option>
+  
+</select>
   <br>
  Email address :<br>
-  <input type="email" name="email">
+  <input type="email" name="Emailaddress">
   <br>
   Physical address:<br>
-  <input type="text" name="address">
+  <input type="text" name="Physicaladdress">
   <br>
   About me:<br>
-  <input type="text" name="abtme">
+  <input type="text" name="Aboutme">
   <br>
   <input type="submit" value="Submit">
 </form> 
 
-<p>If you click the "Submit" button, the form-data will be sent to a page called "action_page.php".</p>
+
 
 </body>
 </html>
